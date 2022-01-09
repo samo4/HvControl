@@ -2254,6 +2254,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 34344b55-e12a-4d1e-91b0-e12111716a78)
   )
+  (text "optional isolated version: MAX33070E  " (at 86.106 144.272 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 38826a5f-2a18-4a0f-a0ad-83c05a6f55cc)
+  )
   (text "need 5V output for isolator" (at 60.96 153.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ad67041-76dd-4312-9e4c-336897f1480a)
@@ -2981,6 +2985,9 @@
     (path "/1e25866a-4f95-4fd9-a862-c88e4211d38c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/168a0226-3f44-46ec-a72a-15290137bd66/2b5dc2db-e1de-4685-af70-bda21c283ac1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/168a0226-3f44-46ec-a72a-15290137bd66/2dca5777-b212-4811-9d79-1221f2898c3f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3200,6 +3207,9 @@
     (path "/a55e1730-9cc6-449f-95c7-a4b048ce6ae3"
       (reference "U?") (unit 1) (value "MAX14783ExS") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
+    (path "/168a0226-3f44-46ec-a72a-15290137bd66/c772f9a8-a183-4777-a436-fd70c4943a72"
+      (reference "U?") (unit 1) (value "TS5A23159DGS") (footprint "Package_SO:VSSOP-10_3x3mm_P0.5mm")
+    )
     (path "/168a0226-3f44-46ec-a72a-15290137bd66/d160b7ef-0f83-4fec-8daa-f4a10bee9e0b"
       (reference "U?") (unit 1) (value "TL072") (footprint "")
     )
@@ -3212,11 +3222,17 @@
     (path "/168a0226-3f44-46ec-a72a-15290137bd66/3ba435c3-0cd1-440e-b45b-f254734fef9c"
       (reference "U?") (unit 2) (value "TL072") (footprint "")
     )
+    (path "/168a0226-3f44-46ec-a72a-15290137bd66/950d0cc2-df83-4010-bb7e-8148784ecf71"
+      (reference "U?") (unit 2) (value "TS5A23159DGS") (footprint "Package_SO:VSSOP-10_3x3mm_P0.5mm")
+    )
     (path "/168a0226-3f44-46ec-a72a-15290137bd66/be19c371-58ec-4da8-bf75-bd0c7fa4a358"
       (reference "U?") (unit 2) (value "TL072") (footprint "")
     )
     (path "/168a0226-3f44-46ec-a72a-15290137bd66/3added0c-58c9-431f-8ad6-12d663e27d2a"
       (reference "U?") (unit 3) (value "TL072") (footprint "")
+    )
+    (path "/168a0226-3f44-46ec-a72a-15290137bd66/9f2913ee-f300-41d4-9b7a-339ae5970c4d"
+      (reference "U?") (unit 3) (value "TS5A23159DGS") (footprint "Package_SO:VSSOP-10_3x3mm_P0.5mm")
     )
     (path "/168a0226-3f44-46ec-a72a-15290137bd66/dfb5e367-b066-4dc5-944f-2f740086ca46"
       (reference "U?") (unit 3) (value "TL072") (footprint "")
