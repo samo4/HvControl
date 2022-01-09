@@ -320,6 +320,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "168a0226-3f44-46ec-a72a-15290137bd66",
+      "CPS interface"
+    ],
+    [
+      "1539bb3b-85cf-40ad-b2d5-ba9218c313fb",
+      "Gun Interface"
     ]
   ],
   "text_variables": {}
